@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Project 1 Logo</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle fill="#e63946" cx="25" cy="25" r="23"></circle>
+        <path d="M15,15 L35,15 L35,35 L15,35 L15,15 Z" stroke="#ffffff" stroke-width="2"></path>
+        <path d="M20,20 L30,20 L30,30 L20,30 L20,20 Z" fill="#ffffff"></path>
+    </g>
+</svg>

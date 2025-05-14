@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Project 3 Logo</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon fill="#2a9d8f" points="25 2 48 25 25 48 2 25"></polygon>
+        <circle fill="#ffffff" cx="25" cy="25" r="10"></circle>
+        <circle fill="#2a9d8f" cx="25" cy="25" r="5"></circle>
+    </g>
+</svg>

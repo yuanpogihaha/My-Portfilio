@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan | Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">PORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <a href="https://github.com" class="github-icon" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h2>HELLO WORLD, I'M</h2>
+                <h1>Juan</h1>
+                <div class="typing-container">
+                    <p id="typing-text">Web Developer & Designer creating modern, responsive websites with clean code and intuitive user experiences.</p>
+                </div>
+                <a href="#contact" class="btn">get in touch <i class="fas fa-arrow-right btn-icon"></i></a>
+            </div>
+
+            <div class="profile-container">
+                <div class="profile-image">
+                    <img src="yuan.jpg" alt="Juan Rakha">
+                </div>
+                <div class="profile-glow"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title scroll-animation fade-in">About Me</h2>
+            <div class="about-content">
+                <div class="about-text scroll-animation fade-in-left">
+                    <p>I'm a passionate web developer with a keen eye for design and a love for creating intuitive, responsive websites. With a background in both front-end and back-end development, I bring a holistic approach to every project.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying the outdoors.</p>
+                    <a href="#" class="btn">download resume <i class="fas fa-download btn-icon"></i></a>
+                </div>
+                <div class="about-image scroll-animation fade-in-right">
+                    <img src="yy.gif" alt="About Me Animation" class="about-gif">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title scroll-animation fade-in">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card scroll-animation fade-in-scale">
+                    <div class="project-image">
+                        <div class="project-logo">
+                            <img src="assets/images/project1-logo.svg" alt="Project 1 Logo">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 style="color: #e63946;">E-Commerce Platform</h3>
+                        <p>A modern e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product catalog, and payment processing.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-small" style="border-color: #e63946; color: #e63946;">view live</a>
+                            <a href="#" class="btn-small" style="border-color: #e63946; color: #e63946;">source code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card scroll-animation fade-in-scale">
+                    <div class="project-image">
+                        <div class="project-logo">
+                            <img src="assets/images/project2-logo.svg" alt="Project 2 Logo">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 style="color: #4a4e69;">Task Management App</h3>
+                        <p>A collaborative task management application built with Vue.js and Firebase. Features include real-time updates, task assignment, and progress tracking.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-small" style="border-color: #4a4e69; color: #4a4e69;">view live</a>
+                            <a href="#" class="btn-small" style="border-color: #4a4e69; color: #4a4e69;">source code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card scroll-animation fade-in-scale">
+                    <div class="project-image">
+                        <div class="project-logo">
+                            <img src="assets/images/project3-logo.svg" alt="Project 3 Logo">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 style="color: #2a9d8f;">Weather Dashboard</h3>
+                        <p>A responsive weather dashboard that provides real-time weather data using the OpenWeatherMap API. Built with HTML, CSS, and JavaScript.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-small" style="border-color: #2a9d8f; color: #2a9d8f;">view live</a>
+                            <a href="#" class="btn-small" style="border-color: #2a9d8f; color: #2a9d8f;">source code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title scroll-animation fade-in">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category scroll-animation fade-in-left">
+                    <h3>Frontend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-name"><img src="assets/images/html-icon.svg" alt="HTML Icon" class="skill-icon"> HTML</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%; background-color: #E34F26;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name"><img src="assets/images/css-icon.svg" alt="CSS Icon" class="skill-icon"> CSS</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%; background-color: #1572B6;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name"><img src="assets/images/js-icon.svg" alt="JavaScript Icon" class="skill-icon"> JavaScript</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%; background-color: #F7DF1E;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category scroll-animation fade-in-right">
+                    <h3>Backend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-name"><img src="assets/images/nodejs-icon.svg" alt="Node.js Icon" class="skill-icon"> Node.js</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%; background-color: #539E43;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name"><img src="assets/images/python-icon.svg" alt="Python Icon" class="skill-icon"> Python</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%; background-color: #366A96;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name"><img src="assets/images/sql-icon.svg" alt="SQL Icon" class="skill-icon"> SQL</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 65%; background-color: #00618A;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title scroll-animation fade-in">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info scroll-animation fade-in-left">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>email@example.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+1 (123) 456-7890</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>City, Country</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form scroll-animation fade-in-right">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="your name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="your email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="your message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">send message <i class="fas fa-paper-plane btn-icon"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 <span class="accent">Juan</span>. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/scroll-animations.js"></script>
+    <script src="script.js"></script>
+    <script src="assets/typing-animation.js"></script>
+</body>
+</html>
